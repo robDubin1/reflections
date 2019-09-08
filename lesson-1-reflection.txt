@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It made it much simpler to spot the mistakes as instead of having to go
+    manually line by line the program did it for me in seconds.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can save time debugging as you can quickly see older errors and know
+    where they most likely are popping up.  It also makes retrieving these
+    older versions quick and easy.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+    You can commit whenever you want
+    You have the ability to decide how large/small the saves are
+
+    Cons:
+    You might forget to save
+    You could make commits to big which would decrease their usefulness
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git allows for multiple files as it was built mainly for use by programmers
+    who right programs that generally have multiple files.  This makes being
+    able to save multiple at the same time logical.  Google Docs was made for
+    more human-read files which means that different files are generally
+    unrelated.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log is useful for showing a broad overview of the changes in a commit.
+    Git diff is useful for seeing what code was actually changed between
+    versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can change even the most necessary and critical features as if they
+    break the code you can simply revert back to the older, working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git to write my own programs without worrying about breaking
+    the code as I will have older versions I can revert to.
