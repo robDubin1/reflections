@@ -1,0 +1,62 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    I would use a remote repository if I was collaborating with a group of people
+    and I wanted to be able to share code efficiently.  It also serves as a nice way
+    to show others my code even if I am not working together.  It is also a nice
+    backup in case something happened to my local disk.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    If I pull changes manually I do not have to worry about new bugs from
+    others popping up as I develop my own part of the code.  Also, if
+    I am using some library or API I got from Github I would prefer to
+    be able to pull which version I desired rather than a possible update
+    happening that breaks my code.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Forks, clones, and branches are all ways to get code from Github and then
+    either use it or edit it without affecting the original version.  A branch
+    edits the existing repository while forking and cloning both copy the entire
+    repository into a new location.  Forking is also a Github specific feature
+    while cloning can happen to any git file.
+
+    Branching would be useful when collaborating with a group of people that
+    were all editing/adding their own features to the code.  Cloning would work
+    if their were a large amount of files and you wanted to work offline on
+    your local device.  Forking would be used if I wanted to edit the existing
+    file but did not have permission to edit the main one.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    If I am going offline either for a car ride or flight I can fetch the last
+    known state so that I have access to it while offline.  This way even if
+    I am not ready to merge them right now, I can do it while I am offline
+    or see the remote version as needed.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    In the past I have collaborated using other programs such as Floobits.
+    Floobits functions essentially as a Google Docs for code that allows for
+    multiple people making real time edits.  A large drawback of Floobits is
+    the inability to create branches which would allow for multiple people to
+    work on multiple features at the same time without any crossover bugs.
+    This is a feature in Git that is highly useful.  Floobits does have less of
+    a learning curve however and being able to see edits in real time can be
+    useful.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    If I were working on my own or in a small group I would use the master
+    branch as there is not too much editing or updating going on without my
+    knowledge that I would have to keep track of.  However, in a large group
+    I would use separate branches to keep track of which features and changes
+    have been made, added, or approved to the project.  Branches are highly
+    useful in large group projects but not necessarily needed in smaller ones
+    unless an experimental feature is being added or worked on.
